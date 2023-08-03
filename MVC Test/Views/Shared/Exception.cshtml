@@ -1,0 +1,22 @@
+﻿
+@model dynamic
+    @{Layout = null; }
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Exception</title>
+</head>
+<body>
+    <hgroup>
+        <h1>Exception.</h1>
+        <h2>An exception occurred while processing your request.</h2>
+    </hgroup>
+    <ul>
+        <li><b> Exception:</b>@Model.Message</li>
+        <li><b> StackTrace:</b>@Model.StackTrace</li>
+    </ul>
+</body>
+</html>
+
+
