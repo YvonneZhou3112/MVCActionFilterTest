@@ -36,5 +36,12 @@ namespace MVC_Test.Controllers
 
             return View();
         }
+
+        public ActionResult Remote()
+        {
+            ViewBag.Message = "Your remote page.";
+
+            return View();
+        } 
     }
 }
