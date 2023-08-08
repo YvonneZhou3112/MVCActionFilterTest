@@ -36,5 +36,9 @@ namespace MVC_Test.Controllers
 
             return View();
         }
+
+        public ActionResult Local() { 
+            return View();
+        }
     }
 }
