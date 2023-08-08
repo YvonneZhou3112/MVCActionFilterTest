@@ -1,4 +1,4 @@
-﻿using MVC_Test.CustomAttributes;
+using MVC_Test.CustomAttributes;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -40,5 +40,11 @@ namespace MVC_Test.Controllers
         public ActionResult MainForRebase() { 
             return View();
         }
+        public ActionResult Remote()
+        {
+            ViewBag.Message = "Your remote page.";
+
+            return View();
+        } 
     }
 }
