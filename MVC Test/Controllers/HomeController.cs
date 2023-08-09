@@ -40,5 +40,9 @@ namespace MVC_Test.Controllers
         public ActionResult Local() { 
             return View();
         }
+
+        public ActionResult Feature200() { 
+            return View();
+        }
     }
 }
