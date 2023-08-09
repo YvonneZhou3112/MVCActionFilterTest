@@ -50,5 +50,9 @@ namespace MVC_Test.Controllers
         public ActionResult Feature100() { 
             return View();
         }
+
+        public ActionResult Feature100() { 
+            return View();
+        }
     }
 }
