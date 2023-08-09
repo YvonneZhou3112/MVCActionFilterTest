@@ -50,5 +50,15 @@ namespace MVC_Test.Controllers
         public ActionResult Feature100() { 
             return View();
         }
+        public ActionResult Remote()
+        {
+            ViewBag.Message = "Your remote page.";
+
+            return View();
+        } 
+
+        public ActionResult Feature100() { 
+            return View();
+        }
     }
 }
