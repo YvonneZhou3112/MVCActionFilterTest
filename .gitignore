@@ -1,0 +1,12 @@
+MVC Test/bin/
+MVC Test/obj/
+.vs
+MVC Test.Tests/obj/
+MVC Test.Tests/bin/
+*/*.[dD]ebug.*
+*/*.[rR]elease.*
+MVC Test/App_Data/Movies_log.ldf
+MVC Test/MVC Test.csproj.user
+
+
+
