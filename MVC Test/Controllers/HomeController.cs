@@ -37,7 +37,7 @@ namespace MVC_Test.Controllers
             return View();
         }
 
-        public ActionResult MainForRebase() { 
+        public ActionResult FeatureForRebase() { 
             return View();
         }
         public ActionResult Remote()
@@ -46,10 +46,6 @@ namespace MVC_Test.Controllers
 
             return View();
         } 
-
-        public ActionResult Feature100() { 
-            return View();
-        }
 
         public ActionResult Feature100() { 
             return View();
