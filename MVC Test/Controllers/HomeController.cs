@@ -37,7 +37,7 @@ namespace MVC_Test.Controllers
             return View();
         }
 
-        public ActionResult LocalForRebase() { 
+        public ActionResult MainForRebase() { 
             return View();
         }
     }
