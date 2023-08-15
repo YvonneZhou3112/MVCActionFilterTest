@@ -46,6 +46,14 @@ namespace MVC_Test.Controllers
             ViewBag.Message = "Your remote page.";
 
             return View();
-        } 
+        }
+
+        public ActionResult VS2022()
+        {
+            ViewBag.Message = "Your Visual Studio 2022 page.";
+
+            return View();
+        }
+
     }
 }
