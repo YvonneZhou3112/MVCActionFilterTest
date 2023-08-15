@@ -40,5 +40,10 @@ namespace MVC_Test.Controllers
         public ActionResult MainForRebase() { 
             return View();
         }
+
+        public ActionResult RestoreToMain() 
+        { 
+            return View();
+        }
     }
 }
