@@ -62,7 +62,7 @@ namespace MVC_Test.Controllers
             return View();
         }
 
-        public ActionResult AzurePipelineCommit()
+        public ActionResult AzurePipelineTrigger()
         {
             ViewBag.Message = "Your Azure Pipeline commit page.";
 
