@@ -5,7 +5,7 @@
 
 trigger:
 - main
-- feature*
+- feature100
 
 pool:
   vmImage: 'windows-latest'
