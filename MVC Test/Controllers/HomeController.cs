@@ -55,7 +55,7 @@ namespace MVC_Test.Controllers
             return View();
         }
 
-        public ActionResult VS2022SyncTest()
+        public ActionResult VS2022SyncTest2()
         {
             ViewBag.Message = "Your Visual Studio 2022 Sync page.";
 
