@@ -50,6 +50,8 @@ steps:
     configuration: '$(buildConfiguration)'
 
 - task: PublishBuildArtifacts@1
+  inputs:
+    pathtoPublish: $(Build.ArtifactStagingDirectory)
 
 #  - task: PublishPipelineArtifact@1
 #   inputs:
@@ -62,4 +64,4 @@ steps:
     azureSubscription: 'AzureRMServiceConnection'
     appType: 'webApp'
     appName: 'MVCTester'
-    package: '$(System.DefaultWorkingDirectory)/**/*.zip'
+    package: '$(Build.ArtifactStagingDirectory)/**/*.zip'
