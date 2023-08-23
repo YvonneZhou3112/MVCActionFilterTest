@@ -54,3 +54,11 @@ steps:
     targetPath: '$(Pipeline.Workspace)'
     artifactType: 'pipeline'
     artifactName: 'drop'
+    fileSharePath: 
+
+- task: AzureWebApp@1
+  inputs:
+    azureSubscription: 'MyWebSubscription'
+    appType: 'webApp'
+    appName: 'MyMVCApp'
+    package: '$(System.DefaultWorkingDirectory)/**/*.zip'
