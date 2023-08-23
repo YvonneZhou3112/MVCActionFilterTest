@@ -58,7 +58,7 @@ steps:
 
 - task: AzureWebApp@1
   inputs:
-    azureSubscription: 'MyWebSubscription'
+    azureSubscription: 'MyRMConnection'
     appType: 'webApp'
     appName: 'MyMVCApp'
     package: '$(System.DefaultWorkingDirectory)/**/*.zip'
