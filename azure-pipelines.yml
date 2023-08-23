@@ -72,5 +72,5 @@ steps:
     ConnectionType: 'AzureRM'
     azureSubscription: 'AzureRMServiceConnection'
     appType: 'webApp'
-    WebAppName: 'MVCApp'
+    WebAppName: 'MVCTester'
     packageForLinux: '$(Build.ArtifactStagingDirectory)/**/*.zip'
