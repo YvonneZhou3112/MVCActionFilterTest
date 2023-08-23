@@ -60,5 +60,5 @@ steps:
   inputs:
     azureSubscription: 'MyRMConnection'
     appType: 'webApp'
-    appName: 'MyMVCApp'
+    appName: 'MVCTester'
     package: '$(System.DefaultWorkingDirectory)/**/*.zip'
