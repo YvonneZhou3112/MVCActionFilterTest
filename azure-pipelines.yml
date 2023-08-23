@@ -59,9 +59,18 @@ steps:
 #     artifactType: 'pipeline'
 #     artifactName: 'drop'
 
-- task: AzureWebApp@1
+# - task: AzureWebApp@1
+#   inputs:
+#     azureSubscription: 'AzureRMServiceConnection'
+#     appType: 'webApp'
+#     appName: 'MVCTester'
+#     package: '$(Build.ArtifactStagingDirectory)/**/*.zip'
+
+
+- task: AzureRmWebAppDeployment@4
   inputs:
+    ConnectionType: 'AzureRM'
     azureSubscription: 'AzureRMServiceConnection'
     appType: 'webApp'
-    appName: 'MVCTester'
-    package: '$(Build.ArtifactStagingDirectory)/**/*.zip'
+    WebAppName: 'MVCTester'
+    packageForLinux: '$(Build.ArtifactStagingDirectory)/**/*.zip'
